@@ -1,11 +1,4 @@
-'use strict'; //The "use strict" directive switches the engine to the "modern" mode, changing the bahavior of some built-in features
 
-// Variables are used to store this information.
-var message;
-
-var massage = 'Good morning';
-    // message='How are you today?';
-alert(message);
 
 // var name ='Chad';
 //      age= 20;
@@ -33,4 +26,5 @@ alert(message);
 
 // In the console "Hey" + " there"
 
-
+var name = prompt('Enter your first name.');
+alert('hello, ' + name);
