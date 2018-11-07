@@ -9,4 +9,5 @@
 ---
 
 ## What I've Learn't
-- 
+- Linked alert javascript before main, Main function ask for your name then types ouy Hi, Name.
+- Follow Comments , its part of the lecture.
