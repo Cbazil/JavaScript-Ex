@@ -26,5 +26,9 @@
 
 // In the console "Hey" + " there"
 
-var name = prompt('Enter your first name.');
-alert('hello, ' + name);
+// var name = prompt('Enter your first name.');
+// alert('hello, ' + name);
+
+var name = "Chad";
+    age = "20";
+console.log('Hi my name is ' + name + ' And I am ' + age + ' years old');
