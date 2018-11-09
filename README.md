@@ -11,3 +11,7 @@
 ## What I've Learn't
 - Linked alert javascript before main, Main function ask for your name then types ouy Hi, Name.
 - Follow Comments , its part of the lecture.
+
+- 2018/11/09 Nates lession was on Conditions(If, else and else if statements)
+
+## &copy; All right reserved 2018 , Made by Cbazil
