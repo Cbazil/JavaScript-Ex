@@ -14,7 +14,7 @@
 
 - 2018/11/09 Nates lession was on Conditions(If, else and else if statements)
 
-    ####So We have done:
+#### So We have done:
     Console.log
     Prompt
     Alert
