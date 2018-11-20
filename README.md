@@ -15,12 +15,14 @@
 - 2018/11/09 Nates lession was on Conditions(If, else and else if statements)
 
 #### So We have done:
-    Console.log
-    Prompt
-    Alert
-    Variables
-    Functions 
-    Objects
+    - Console.log
+    - Prompt
+    - Alert
+    - Variables
+    - Loops
+    - Conditions
+    - Functions 
+    - Objects
 
 
 ## &copy; All right reserved 2018 , Made by Cbazil
