@@ -23,6 +23,6 @@
     - Conditions
     - Functions 
     - Objects
-
+    - Methods and Protypes ('Made two variables and created objects asignned to them to call them when ever needed again')
 
 ## &copy; All right reserved 2018 , Made by Cbazil
