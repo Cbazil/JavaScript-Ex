@@ -34,11 +34,42 @@ Lets create a cake in javaScript that has serveral properties:
 
 === */
 
+
+
+// let cake = {
+//     flavour: "chocolate",
+//     price: "R300",
+//     layers: "5",
+//     toppings: "strawberries",
+//     occasion: "birthday"
+// }
+
+
+// console.log("I'm going to make a " + cake.flavour + " cake with " + cake.layers + " layers with toppings of " + cake.toppings + " and the cake will cost you " +  cake.price);
+
+// Describe a cake
+
+// function describe(cake) {
+//     var description = "The " + cake.occasion + " cake has " + cake.layers + " layers, and cost " + cake.price + ".";
+//     return description;
+// }
+// console.log(describe(cake));
+
+// // cake.occasion = "casual";
+// cake.occasion = "birthday";
 let cake = {
     flavour: "vanilla",
     price: "R200",
     layers: "4",
-    toppings: "Chocolate sprinkles"
-}
-console.log("I'm going to make a " + cake.flavour + " cake with " + cake.layers + " layers with toppings of " + cake.toppings + " and the cake will cost you " +  cake.price);
+    toppings: "Chocolate sprinkles",
+    occasion: "casual",
 
+    // Describe the cake
+    describe : function() {
+        var description = "The " + this.occasion + " cake has a " + this.flavour + " flavour, " + this.layers + " layers, and costs " + this.price + ".";
+        return description;
+    }
+};
+console.log(cake.describe());
+
+cake.occasion = "casual";
