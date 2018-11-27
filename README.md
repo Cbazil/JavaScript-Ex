@@ -24,6 +24,7 @@
     - Functions 
     - Objects
     - Methods and Prototypes ('Made two variables and created objects asignned to them to call them when ever needed again')
-    - (2018/11/27) Done a little exerecise on Objects and Prototypes (multiple types of pizzas).  
+    - (2018/11/27) Done a little exerecise on Objects and Prototypes (multiple types of pizzas). 
+    - Added a function within the method.
 
 ## &copy; All right reserved 2018 , Made by Cbazil
