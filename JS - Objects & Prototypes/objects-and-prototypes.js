@@ -16,32 +16,61 @@ console.log(anotherObject.b); // will be undefined
 
 // Cake prototype
 
+// var Pastry = {
+//     type: "",
+//     flavour: "",
+//     layers: 0,
+//     price: "",
+//     occasion: "",
+
+
+// describe : function() {
+//     var description = "The " + this.type + " is a " + this.occasion + " pastry, has a " + this.flavour + " flavour, " + this.layers + " layer(s), and cost " + this.price + ".";
+//     return description;
+//     }
+// };
+// var muffin = Object.create(Pastry);
+// muffin.type = "muffin";
+// muffin.flavour = "blueberry";
+// muffin.layers = "1";
+// muffin.price = "R20";
+// muffin.occasion = "wedding";
+
+// var cake = Object.create(Pastry);
+// cake.type = "cake";
+// cake.flavour = "vanilla";
+// cake.layers = "3";
+// cake.price = "R100";
+// cake.occasion = "birthday";
+
+// console.log(muffin.describe());
+// console.log(cake.describe());
+
+// =============== 2018/11/27 ===============>
+
+
 var Pastry = {
-    type: "",
-    flavour: "",
-    layers: 0,
-    price: "",
-    occasion: "",
+    // initialize the pastry
+    init: function(type, flavour, layers, price, occasion){
+        this.type = type;
+        this.flavour = flavour;
+        this.layers = layers;
+        this.price = price;
+        this.occasion = occasion;
+    },
 
-
-describe : function() {
-    var description = "The " + this.type + " is a " + this.occasion + " pastry, has a " + this.flavour + " flavour, " + this.layers + " layer(s), and cost " + this.price + ".";
-    return description;
+    // Describe the pastry
+    describe: function() {
+        var description = "The " + this.type + " is a " + this.occasion + " pastry, has a " + this.flavour + " flavour, " + this.layers + " layer(s), and costs " + this.price + ".";
+        return description;
     }
 };
+
 var muffin = Object.create(Pastry);
-muffin.type = "muffin";
-muffin.flavour = "blueberry";
-muffin.layers = "1";
-muffin.price = "R20";
-muffin.occasion = "wedding";
+muffin.init("muffin", "blueberry", 1, "R20", "breakfast");
 
 var cake = Object.create(Pastry);
-cake.type = "cake";
-cake.flavour = "vanilla";
-cake.layers = "3";
-cake.price = "R100";
-cake.occasion = "birthday";
+cake.init("cake", "vanilla", 3, "R310", "birthday");
 
 console.log(muffin.describe());
 console.log(cake.describe());
