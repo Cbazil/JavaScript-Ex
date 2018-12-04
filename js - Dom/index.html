@@ -10,35 +10,34 @@
     <style>
         .blue {
             background-color: rgb(73, 73, 243);
-            padding: 6px;
-            border: 1px gray solid;
-            color: aliceblue;
-
-            /* opacity: .4;     */
+           
         }
         .red {
             background-color: rgb(241, 18, 18);
-            padding: 6px;
-            /* opacity: .4;  */
-            border: 1px gray solid;  
-            color: aliceblue;         
+     
+        }
+
+
+        button {
+            padding: 6px 12px;
+            opacity: .8; 
+            border: 1px gray solid;
+            border-radius: 2px;  
+            color: aliceblue;
+            cursor: pointer;    
         }
     </style>
 </head>
 <body>
 <!-- <h2 id="demo"></h2>
-
 <button id="blue"></button>
 <button id="red"></button> -->
 
 <p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, saepe laboriosam, aperiam ex vero, sed autem veritatis explicabo iste harum et cum error.</p>
 
-<button type="button" class="blue" onclick="changeColor('blue')">I'm blue Ivy</button>
+<button type="button" class="blue" onmousemove="changeColor('blue')" onmouseout="changeColor('black')">I'm blue Ivy</button>
 
-<button type="button" class="red" onclick="changeColor('red')">I'm red pill</button>
-
-
-
+<button type="button" class="red" onmousemove="changeColor('red')" onmouseout="changeColor('black')">I'm red pill</button>
 
 <script src="dom.js"></script>
 </body>

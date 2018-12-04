@@ -5,10 +5,7 @@
 // Blue should change to Red
 // Red should change to blue
 
-// document.getElementById("blue").style.backgroundColor = "blue";
-// document.getElementById("red").style.backgroundColor = "red";
-// document.getElementById("blue").innerHTML = "Blue Button";
-// document.getElementById("red").innerHTML = "Red Button";
+
 
 function changeColor(newColor){
     let btn = document.getElementById('text');
