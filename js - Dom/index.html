@@ -7,9 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="manipulating_the_dom.js"> </script>
+    <style>
+        .blue {
+            background-color: rgb(73, 73, 243);
+            padding: 6px;
+            border: 1px gray solid;
+            color: aliceblue;
+
+            /* opacity: .4;     */
+        }
+        .red {
+            background-color: rgb(241, 18, 18);
+            padding: 6px;
+            /* opacity: .4;  */
+            border: 1px gray solid;  
+            color: aliceblue;         
+        }
+    </style>
 </head>
 <body>
-<p id="demo"> </p>
+<!-- <h2 id="demo"></h2>
+
+<button id="blue"></button>
+<button id="red"></button> -->
+
+<p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, saepe laboriosam, aperiam ex vero, sed autem veritatis explicabo iste harum et cum error.</p>
+
+<button type="button" class="blue" onclick="changeColor('blue')">I'm blue Ivy</button>
+
+<button type="button" class="red" onclick="changeColor('red')">I'm red pill</button>
+
+
+
+
 <script src="dom.js"></script>
 </body>
 </html>
