@@ -13,3 +13,13 @@ passwordInput.addEventListener ( 'input', ($event) => {
     }
 
 });
+
+// the input event is triggered whenever the user enters data into a given < input > element. We can use this to check data as it is entered.
+
+// Add a blur event listener to confirmPassword element.
+
+// Compare the value properties of both inputs.
+
+    // If they are the same, set the border styles to thin solid green and set the display style of errorMsg so that it disppears
+
+    // If there are different, set the border styles to thin solid red and set the display style of errorMsg so that it appears
