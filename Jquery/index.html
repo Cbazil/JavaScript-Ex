@@ -7,11 +7,23 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
-
-
+    <style>
+    .toggle {
+        size: 40px;
+    }
+    </style>
 </head>
 
 <body>
-    
+    <h2>Click me</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, tempora!</p>
+      <!-- Create a funtion that make text toggle(Go Bigger) -->   
+    <script>   
+    $(document).ready(function(){
+                $("h2").click(function(){
+                    $("p").toggle();
+                });
+            }); 
+    </script> 
 </body>
 </html>
