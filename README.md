@@ -28,5 +28,6 @@
     - Added a function within the method.
     - DOM(Document Object Model) Lets you target elements and change it within js file.
     - Forming handing, Events (2018/12/07) + Activities
+    - Jquery (2018/12/12)
 
 ## &copy; All right reserved 2018 , Made by Cbazil
