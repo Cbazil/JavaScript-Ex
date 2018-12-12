@@ -13,6 +13,13 @@ passwordInput.addEventListener ( 'input', ($event) => {
     }
 
 });
+const passwordBlur = document.getElementById('password-input');
+
+passwordBlur.addEventListener ('input', ($event) => {
+    if($event.target.value.length >= 6 && $event.target.value.length <=12) {
+        document.getElementById('password-input').blur();
+    }
+})
 
 // the input event is triggered whenever the user enters data into a given < input > element. We can use this to check data as it is entered.
 
