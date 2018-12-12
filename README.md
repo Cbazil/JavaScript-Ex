@@ -27,6 +27,6 @@
     - (2018/11/27) Done a little exerecise on Objects and Prototypes (multiple types of pizzas). 
     - Added a function within the method.
     - DOM(Document Object Model) Lets you target elements and change it within js file.
-    - Forming handing, Events (2018/12/07)
+    - Forming handing, Events (2018/12/07) + Activities
 
 ## &copy; All right reserved 2018 , Made by Cbazil
