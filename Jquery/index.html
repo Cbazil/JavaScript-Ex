@@ -11,19 +11,52 @@
     .toggle {
         size: 40px;
     }
+    .circle {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+    .red {
+        background-color: red;
+    }
+    .blue {
+        background-color: blue;
+    }
+    .green {
+        background-color: green;
+    }
     </style>
 </head>
 
 <body>
     <h2>Click me</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, tempora!</p>
-      <!-- Create a funtion that make text toggle(Go Bigger) -->   
+    <div id="sectiona">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, tempora!</p>
+        <!-- Create a funtion that make text toggle(Go Bigger) -->   
+        <!-- Make circles that disappear -->
+        <div class="circle blue"></div>
+        <div class="circle red"></div>
+        <div class="circle green"></div>
+    </div>
     <script>   
     $(document).ready(function(){
                 $("h2").click(function(){
-                    $("p").toggle();
+                    $("#sectiona").toggle();
+                }); 
+                $(".blue").click(function(){
+                    $(this).hide();
+                });
+                $(".red").click(function(){
+                    $(this).hide();
+                });
+                $(".green").click(function(){
+                    $(this).hide();
                 });
             }); 
+
+    // $(document).ready(funtion(){
+       
+        // });
     </script> 
 </body>
 </html>
